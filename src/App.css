@@ -1,0 +1,88 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #99E3D1;
+  padding: 0 1.2rem 0 1.2rem;
+}
+
+#nav-icon {
+  font-size: 2rem;
+  flex-grow: 3;
+}
+
+header .header-title {
+  justify-self: center;
+  flex-grow: 2;
+}
+
+header .login-account {
+  display: flex;
+  gap: 1rem;
+}
+
+header .login-account .login-btn, header .login-account .register-btn {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  border: solid 2px transparent;
+  padding-bottom: 0.2rem;
+  transition: 0.3s;
+  &:hover {
+    border-bottom: solid 2px #20463c;
+    cursor: pointer;
+    color: #20463c;
+  }
+}
+
+.article-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.article-section .article-image .article-vet-picture {
+  height: 30rem;
+}
+
+.article-section .article-main {
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7rem;
+}
+
+.article-section .article-main .article-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.article-section .article-main .article-text .main-article-text {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.article-section .article-main .article-text .sub-article-text {
+  font-weight: 600;
+  margin: 0;
+}
+
+.article-section .article-main .set-visit-btn {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.5rem;
+  width: 7rem;
+  padding: 0.4rem 4rem 0.4rem 4rem;
+  border-radius: 1.5rem;
+  background-color: #5ACA8D;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  box-shadow: 2px 2px 5px rgb(70, 70, 70); 
+  &:hover {
+    background-color: #54bc83;
+    color: white; 
+  }
+}
