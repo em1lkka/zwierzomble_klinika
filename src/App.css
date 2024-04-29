@@ -11,7 +11,12 @@ header {
   flex-grow: 3;
 }
 
-header .header-title {
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+header a {
   justify-self: center;
   flex-grow: 2;
 }
@@ -46,6 +51,7 @@ header .login-account .login-btn, header .login-account .register-btn {
 }
 
 .article-section .article-main {
+  margin: 0 2rem;
   width: 25rem;
   display: flex;
   flex-direction: column;
@@ -71,6 +77,8 @@ header .login-account .login-btn, header .login-account .register-btn {
 }
 
 .article-section .article-main .set-visit-btn {
+  text-decoration: none;
+  color: white;
   text-align: center;
   font-weight: 500;
   font-size: 1.5rem;
@@ -79,10 +87,15 @@ header .login-account .login-btn, header .login-account .register-btn {
   border-radius: 1.5rem;
   background-color: #5ACA8D;
   cursor: pointer;
-  transition: 0.3s ease-in-out;
+  transition: 0.3s;
   box-shadow: 2px 2px 5px rgb(70, 70, 70); 
   &:hover {
     background-color: #54bc83;
     color: white; 
   }
 }
+
+Link {
+  text-decoration: none;
+}
+
