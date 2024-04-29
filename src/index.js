@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import AnimalRegister from './AnimalRegister';
 import reportWebVitals from './reportWebVitals';
+import Visits from "./Visits";
 import {
   createBrowserRouter,
   RouterProvider,
@@ -16,8 +17,12 @@ const router = createBrowserRouter([
     element: <App />
   },
   {
-    path: "/AnimalRegister.js",
+    path: "/AnimalRegister",
     element: <AnimalRegister />
+  },
+  {
+    path: "/Visits",
+    element: <Visits />
   }
 ])
 

@@ -10,7 +10,7 @@ function Article() {
                     <h2 className="main-article-text">Czy twój zwierzombl wpadł pod samochód?A może poszedł za garaże się klepać i dostał bencki? My go wyleczymy!</h2>
                     <h4 className="sub-article-text">Z-MED to profesjonalna klinika weterynaryjna specjalizująca się w leczeniu zwierzombli i innych sierściuchów.</h4>
                 </div>
-                <a href='/AnimalRegister.js' className="set-visit-btn">
+                <a href='/AnimalRegister' className="set-visit-btn">
                     Umów się na wizytę
                 </a>
             </div>
